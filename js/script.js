@@ -348,12 +348,12 @@ const data = {
     areaEarth: "836,2 м²",
     price: "$47 700",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/bum3dxyss1agzj2ydeo1k/dilyanka_48.jpg?rlkey=lspepl2y9fvb2j0e6uh6ck285&st=4bjkasho&dl=0",
-    scrollTo: "model1"
+    scrollTo: "dilyanka_48"
   },
   dilyanka_spa: {
-    title: "Ресторан + SPA",
+    title: 'SPA-комплекс з рестораном "Лісова лілея" (інвестиція)',
     area: "-/- м²",
-    areaEarth: "3100 м²",
+    areaEarth: "3300 м²",
     price: "$177 000",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/nyokbbhx1pj0y45vsyax4/dilyanka_spa1.jpg?rlkey=fvrpu2xrsn9oa2c69gaxp5igq&st=6jgfvg2c&dl=0",
     scrollTo: "dilyanka_spa"
@@ -495,6 +495,43 @@ function topFunction() {
 
 
 
+// Модалка для видео на карточках
 
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('video-modal');
+    if (!modal) {
+        console.error('Не найден #video-modal в HTML');
+        return;
+    }
+
+    // ключевая строка: гарантируем, что модалка — прямой потомок body,
+    // а не лежит внутри .property-card с transform на hover
+    document.body.appendChild(modal);
+
+    const player = document.getElementById('video-modal-player');
+    const closeBtn = modal.querySelector('.video-modal-close');
+    const overlay = modal.querySelector('.video-modal-overlay');
+
+    document.querySelectorAll('.video-badge').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            player.src = btn.dataset.video;
+            modal.classList.add('active');
+            player.play();
+        });
+    });
+
+    function closeModal(){
+        modal.classList.remove('active');
+        player.pause();
+        player.src = '';
+    }
+
+    closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', closeModal);
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') closeModal();
+    });
+});
 
 
