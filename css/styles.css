@@ -622,9 +622,15 @@ a:hover {
 
 .prodano{
     fill:rgba(4, 122, 4, 0.5);
-    stroke:#023002;
+    stroke:#00aa00;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+/* .prodano:hover {
+    fill: rgba(173, 231, 11, 0.884);
+} */
 
 
 
@@ -639,7 +645,7 @@ a:hover {
 }
 
 .viewbox:hover {
-  fill: rgba(248, 209, 81, 0.5);
+  fill: rgba(173, 231, 11, 0.884);
 }
 
 .property-card {
