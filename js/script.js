@@ -323,8 +323,15 @@ const data = {
     areaEarth: "500 м²",
     price: "$87 000",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/ksntt8vgz4cf5oo27t4hn/chervona_ruta01.jpg?rlkey=6d9c7ybs1366kenx9r6fjfsjr&st=plbxq3zi&dl=0",
-    scrollTo: "chervona_ruta"
-    
+    scrollTo: "chervona_ruta" 
+  },
+  shafran: {
+    title: 'Будинок "Шафран"',
+    area: "50 м²",
+    areaEarth: "500-800 м²",
+    price: "$130000",
+    img: "https://www.dl.dropboxusercontent.com/scl/fi/o5ro1zw5qj3ntzaavwdxu/shaphran1.jpg?rlkey=u0xlue8ujaknr5nduihw3z43o&st=ilfn45xy&dl=0",
+    scrollTo: "shafran" 
   },
   dilyanka_04: {
     title: "Ділянка 04",
@@ -361,7 +368,7 @@ const data = {
 };
 
 // элементы
-const polygons = document.querySelectorAll(".viewbox");
+const polygons = document.querySelectorAll("#viewbox");
 const modal = document.getElementById("modal");
 
 const modalImg = document.getElementById("modal-img");
