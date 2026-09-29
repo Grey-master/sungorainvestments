@@ -362,7 +362,7 @@ const data = {
     area: "-/- м²",
     areaEarth: "3300 м²",
     price: "від $177 000",
-    img: "https://www.dl.dropboxusercontent.com/scl/fi/4vq5rmyc0zmwuflb40cm4/panorama4_1.jpg?rlkey=wsfuskyc7mgp811tzbj2b1my3&st=kroqg11k&dl=0",
+    img: "https://www.dl.dropboxusercontent.com/scl/fi/c0ikol2yenvvetocvm7ui/panorama4_2.jpg?rlkey=guo1g0qohte7z609wh14cy3m2&st=2z540au0&dl=0",
     scrollTo: "dilyanka_spa"
   }
 };
