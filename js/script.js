@@ -312,31 +312,31 @@ const data = {
   edelveys: {
     title: 'Будинок "Едельвейс"',
     area: "200 м²",
-    areaEarth: "844,4 м²",
+    areaEarth: "844 м²",
     price: "$510 000",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/qfdlrekfcq58kw9nwazdw/edelveys22.jpg?rlkey=62sjogre3tlhzihcdup81tazk&st=gsfkk8e6&dl=0",
     scrollTo: "edelveys"
   },
   chervona_ruta: {
     title: 'Будинок "Червона Рута"',
-    area: "50 м²",
+    area: "42 м² + тераса 8 м²",
     areaEarth: "500 м²",
     price: "$87 000",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/ksntt8vgz4cf5oo27t4hn/chervona_ruta01.jpg?rlkey=6d9c7ybs1366kenx9r6fjfsjr&st=plbxq3zi&dl=0",
     scrollTo: "chervona_ruta" 
   },
   shafran: {
-    title: 'Будинок "Шафран"',
-    area: "50 м²",
+    title: 'Типовий будинок"',
+    area: "від 60 м²",
     areaEarth: "500-800 м²",
-    price: "$130000",
+    price: "від $140000",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/o5ro1zw5qj3ntzaavwdxu/shaphran1.jpg?rlkey=u0xlue8ujaknr5nduihw3z43o&st=ilfn45xy&dl=0",
     scrollTo: "shafran" 
   },
   dilyanka_04: {
     title: "Ділянка 04",
     area: "-/- м²",
-    areaEarth: "681,3 м²",
+    areaEarth: "681 м²",
     price: "$38 800",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/fekywycnc8hya3ji3utrs/dilyanka_04.jpg?rlkey=f8ofa6n4o9oau8vv7tnbj4qpu&st=67a1svoz&dl=0",
     scrollTo: "model1"
@@ -344,16 +344,16 @@ const data = {
   dilyanka_05: {
     title: "Ділянка 05",
     area: "-/- м²",
-    areaEarth: "502,3 м²",
+    areaEarth: "502 м²",
     price: "$28 600",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/pf666hpy16d0zfk6bfha5/dilyanka_05.jpg?rlkey=up711knpmqwgshnexvx7o0epb&st=bv3rep9s&dl=0",
     scrollTo: "model1"
   },
   dilyanka_48: {
-    title: 'Ділянка "Гірська орхідея" (інвестиція)',
+    title: 'Будинок "Гірська орхідея" (інвестиція)',
     area: "-/- м²",
-    areaEarth: "836,2 м²",
-    price: "$47 700",
+    areaEarth: "836 м²",
+    price: "$2 400 за м²",
     img: "https://www.dl.dropboxusercontent.com/scl/fi/bum3dxyss1agzj2ydeo1k/dilyanka_48.jpg?rlkey=lspepl2y9fvb2j0e6uh6ck285&st=4bjkasho&dl=0",
     scrollTo: "dilyanka_48"
   },
@@ -361,8 +361,8 @@ const data = {
     title: 'SPA-комплекс з рестораном "Лісова лілея" (інвестиція)',
     area: "-/- м²",
     areaEarth: "3300 м²",
-    price: "$177 000",
-    img: "https://www.dl.dropboxusercontent.com/scl/fi/nyokbbhx1pj0y45vsyax4/dilyanka_spa1.jpg?rlkey=fvrpu2xrsn9oa2c69gaxp5igq&st=6jgfvg2c&dl=0",
+    price: "від $177 000",
+    img: "https://www.dl.dropboxusercontent.com/scl/fi/4vq5rmyc0zmwuflb40cm4/panorama4_1.jpg?rlkey=wsfuskyc7mgp811tzbj2b1my3&st=kroqg11k&dl=0",
     scrollTo: "dilyanka_spa"
   }
 };
